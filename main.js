@@ -22,7 +22,7 @@ console.log(color);
  cant be a reserved word
 */
 
-//Constants (cant be  reassigned and must declare and intiliaze)
+//Constants (cant be  reassigned .It must be declared and intiliazed together).
 const pi=3.14;
 
 //DATA TYPES(primitive and reference)
