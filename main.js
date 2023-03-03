@@ -6,16 +6,16 @@ comment
 //VARIABLES(Can be reassigned)
 //First one 
 var colour ='red';
-console.log(colour);
+// console.log(colour);
 //or let 
 let rang ='red';
-console.log(rang);
+// console.log(rang);
 // let is reassingable
 let color;
 color='red';
 color='yellow';
-console.log(color);
-/*Variables naming
+// console.log(color);
+/*Variables namingTrue;//Boolean
  Are Case-sensitive
  Cant start with number
  cant contain spaces or hyphen(-)
@@ -29,11 +29,11 @@ const pi=3.14;
 //Primitive
 let name ='FAizee';//String literal
 let age=40;//Number literal
-let liar= True;//Boolean literal
+let liar= true;//Boolean literal
 let colors=null//Null 
 // let list;//Undefined
-namee+='Stacker'
-console.log('name');
+name+='Stacker'
+// console.log('name');
 //Concatination
 let message=name +'is' +name;
 /*Better way
@@ -49,15 +49,15 @@ numbers.push(0);
 numbers.pop();//pops last element.
 numbers.shift();//pops first element.
 //Nested Array
-const nestedArray =['red',5,null,True, [1,2,3,4,5]]
-console.log(nestedArray[4][3]);//Accesing element inside the nested array
+const nestedArray =['red',5,null,true, [1,2,3,4,5]]
+//console.log(nestedArray[4][3]);//Accesing element inside the nested array
 
 //Object Literasls(reference)
 const person = {
   firstname: 'md' ,
   lastname: 'Sahil' ,
   age:22,
-  teams: [india,mumbai],
+  teams: ['india','mumbai'],
   address :{
     street :'MAripur',
     City :'Muzaffarpur',
@@ -67,16 +67,16 @@ const person = {
 person.email ='sahil212@gmail.com';//adding to object person.
 delete person.age;//deleting an element
 //Dot notation
-console.log(person.age);//gives the age of the person(accesssig each element)
+//console.log(person.age);//gives the age of the person(accesssig each element)
 //or Bracket Noataion
-console.log(person[age]);
+//console.log(person[age]);
 //Array of objects
 const people =[
   {
     firstname: 'md' ,
     lastname: 'Sahil' ,
     age:22,
-    teams: [india,mumbai],
+    teams: ['india','mumbai'],
     address :{
       street :'MAripur',
       City :'Muzaffarpur',
@@ -87,7 +87,7 @@ const people =[
       firstname: 'Aasif' ,
       lastname: 'conman' ,
       age:22,
-      teams: [india,mumbai],
+      teams: ['india','mumbai'],
       address :{
         street :'MAripur',
         City :'Muzaffarpur',
@@ -98,12 +98,12 @@ const people =[
 
 //Functions(reference)
 function hey(){
-  console.log(hello);
+  //console.log(hello);
 }
 hey();//calling the function
 //function with parameter
 function hello(first,last){
-  console.log('hello &{first} ${last}');
+  //console.log('hello &{first} ${last}');
 }
 hey('MD','sahil');//calling the function
 
@@ -111,12 +111,12 @@ hey('MD','sahil');//calling the function
 //while
 let i=0;
 while(i<10){
-  console.log(i);
+  //console.log(i);
   i++;
 }
 //for
 for(let i=0;i<10;i++){
-  console.log(i);
+  //console.log(i);
 }
 //loop in Array
 const same =[
@@ -129,12 +129,12 @@ const same =[
       firstname: 'Aasif' ,
       lastname: 'conman' ,
       age:22,
-      teams: [india,mumbai]
+      teams: ['india','mumbai']
     }
 ]
 for(let i=0;i<same.length;i++){
-  console.log(same[i]);//prints array
-  console.log(same[i].age);//prints specific element
+  //console.log(same[i]);//prints array
+  //console.log(same[i].age);//prints specific element
 }
 /*Shorthand
 for(let x of same){
@@ -145,10 +145,10 @@ for(let x of same){
  //Conditionals
  let animal ='dog';
  if (animal ==='dog'){
-   console.log(true);
+   //console.log(true);
  }
  else{
-   console.log(false);
+   //console.log(false);
  }
  //for multiple conditiopn we use for(condition &&condition && so on)
  //for or we use ||
@@ -158,37 +158,39 @@ for(let x of same){
  let model ='ben';
  switch(model){
    case 'ben':
-     console.log('ben');
+     //console.log('ben');
      break;
    case 'mike':
-     console.log('mike');
+     //console.log('mike');
      break;
    default :
-     console.log('neither');
+     //console.log('neither');
      break;
  }
 
  //DOM Document object model
  //Single Element Selector
-const list =document.getElementById('list');
-console.log(list);
+// const list =document.getElementById('list');
+// console.log(list);
 /*OR const list =document.querySelector('#list');
 const listItems =document.querySelector('.list-items');
 console.log(list-items);*/
 //Multiple Elemen Selector
-const listItems =document.querySelectorAll('.list-items');
-console.log(list-items);
+// const listItems =document.querySelectorAll('.list-items');
+// console.log(list-items);
 //Manupulation
-list.firstElementChild.remove();
+// list.firstElementChild.remove();
 // list.lastElementChild.textContent='New Item;
 // list.lastElementChild.innerHTML="<h1> new item</h1>
 
 
 //Events
-const btn =document.getElementById('mybtn');
-btn.addEventListener('click',function(e){
-  console.log(e);
-});//other eventlistner are (mouseover,mouseout)
+// const btn =document.getElementById('mybtn');
+// btn.addEventListener('click',function(e){
+//   console.log(e);
+// });
+//other eventlistner are (mouseover,mouseout)
 // btn.addEventListener('mousehover',function(e){//or replace function with (e)=>
 //   btn.style.background ='blue';
 // });
+
